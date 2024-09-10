@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <h2>O Enigma da Mansão Abandonada</h2>
+            <img class="imagens" src="Mansão.png" alt="">
+            <p>Você está parado em frente a uma mansão abandonada, escondida no meio da floresta. Há muito tempo, as pessoas falam de mistérios e acontecimentos estranhos que cercam esse lugar. O sol está se pondo, e uma brisa fria percorre as árvores. De repente, você sente um impulso de entrar. Algo o chama. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1"> Entrar na mansão</button>
+            <button class="btn-proximo" data-proximo="2"> Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img class="imagens" src="Portas.png" alt="">
+            <p>Você decide entrar. A porta range ao ser aberta, e o ar lá dentro é pesado, como se o tempo tivesse parado. Você caminha por um corredor mal iluminado até chegar a um grande salão. No centro, há uma escada que leva ao andar de cima. Ao redor, há quatro portas. Uma delas está entreaberta, como se esperasse por você.</p>
+            <button class="btn-proximo" data-proximo="3"> Subir as escadas </button>
+            <button class="btn-proximo" data-proximo="4"> Explorar a porta entreaberta</button>
+            <button class="btn-proximo" data-proximo="5">Explorar as outras portas </button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img class="imagens" src="Floresta.png" alt="">
+            <p>Você decide que essa aventura não é para você. Caminha de volta pela floresta enquanto o sol se põe completamente. Ao chegar em casa, sente um arrepio. Durante a noite, um som estranho o acorda. Parece vir de fora. Você se levanta para investigar e vê uma sombra estranha à distância.</p>
+            <button class="btn-proximo" data-proximo="6">Ignorar o som e voltar para a cama</button>
+            <button class="btn-proximo" data-proximo="7"> Sair para investigar</button>
+            </div>
+            <div class="passo" id="passo-3">
+                <img class="imagens" src="Escadas.png" alt="">
+                <p>As escadas rangem sob seus pés à medida que você sobe. No topo, há um longo corredor com uma única porta ao final. Quando você se aproxima, sente uma presença estranha atrás de você. Você se vira rapidamente, mas não há nada. Seu coração dispara..</p>
+                <button class="btn-proximo" data-proximo="8">Abrir a porta no final do corredor </button>
+                <button class="btn-proximo" data-proximo="9"> Voltar para o andar de baixo </button>
+                </div>
+                <div class="passo" id="passo-4">
+                    <img class="imagens" src="Caixa de Madeira.png" alt="">
+                    <p>Você empurra a porta e entra em uma sala escura. As paredes estão cobertas de espelhos empoeirados. No centro, há uma pequena mesa com uma caixa de madeira antiga. Você sente uma energia estranha emanando dela.</p>
+                    <button class="btn-proximo" data-proximo="10">Abrir a caixa </button>
+                    <button class="btn-proximo" data-proximo="11">Deixar a sala e explorar outro lugar </button>
+                    </div>
+                    <div class="passo" id="passo-5">
+                        <p>Você decide explorar as outras portas. A primeira leva a uma antiga biblioteca, a segunda a um salão de festas empoeirado, e a terceira parece ser um antigo quarto, abandonado há muito tempo. Em qual você quer entrar?</p>
+                        <button class="btn-proximo" data-proximo="12">Entrar na biblioteca </button>
+                        <button class="btn-proximo" data-proximo="13">Entrar no salão de festas  </button>
+                        <button class="btn-proximo" data-proximo="14">Entrar no quarto  </button>
+                        </div>
+                        <div class="passo" id="passo-6">
+                            <p>Você decide ignorar o som e volta a dormir. No entanto, seus sonhos são perturbados por visões da mansão e de uma figura sombria observando você. Ao acordar, sente que perdeu algo importante, algo que nunca saberá o que era. FIM.</p>
+                            <button class="btn-proximo" data-proximo="0">Voltar ao ínicio e descobri oque perdeu! </button>     
+                         </div>
+                         <div class="passo" id="passo-7">
+                            <p>Você sai de casa para investigar o som. Ao se aproximar da sombra, percebe que é uma figura alta, encapuzada. Antes que possa reagir, ela sussurra algo ininteligível, e tudo fica escuro. Você desapareceu, e nunca mais foi visto. FIM.</p>
+                            <button class="btn-proximo" data-proximo="0">Você desapareceu! Voltar ao ínicio. </button>
+                            </div>
+                            <div class="passo" id="passo-8">
+                                <p>Você abre a porta e encontra uma sala pequena e vazia, exceto por um espelho antigo no centro. Ao se aproximar, o espelho reflete não o seu rosto, mas o de uma pessoa que você nunca viu. De repente, a figura no espelho sorri, e você sente uma força puxando você para dentro. FIM.</p>
+                                <button class="btn-proximo" data-proximo="0">Você Morreu! Voltar ao ínicio. </button>
+                                </div>
+                                <div class="passo" id="passo-9">
+                                    <p>Ao descer, você sente uma presença ainda mais forte. Algo está definitivamente observando você. De repente, as portas da mansão se fecham sozinhas, e as janelas começam a bater. Preso e sem saída, você percebe que cometeu um erro ao entrar aqui. FIM.</p>
+                                    <button class="btn-proximo" data-proximo="0">Voltar ao ínicio e evitar que isso aconteça! </button>
+                                    </div>
+                                    <div class="passo" id="passo-10">
+                                        <p>Ao abrir a caixa, você encontra um antigo colar com um pingente brilhante. Quando o toca, sente uma onda de poder percorrer seu corpo. Agora, você se tornou o guardião da mansão, condenado a vagar por ela para sempre. FIM.</p>
+                                        <button class="btn-proximo" data-proximo="0">Voltar ao ínicio! </button>
+                                        </div>
+                                        <div class="passo" id="passo-11">
+                                            <p>Você sai da sala e decide explorar outras partes da mansão, mas o som de algo se movendo no andar de cima chama sua atenção. Quando olha para as escadas, vê uma sombra descendo lentamente em sua direção. Assustado, você tenta fugir, mas as portas se trancam. FIM.</p>
+                                            <button class="btn-proximo" data-proximo="0">Você Morreu! Voltar ao ínicio. </button>
+                                            </div>
+                                            <div class="passo" id="passo-12">
+                                                <p>Você entra na biblioteca e vê pilhas de livros antigos. Um livro, em particular, parece brilhar com uma luz estranha. Quando você o abre, sente como se o tempo parasse. As páginas começam a girar sozinhas, e uma voz sussurra em seu ouvido: "Bem-vindo ao seu novo lar." FIM.</p>
+                                                <button class="btn-proximo" data-proximo="0">Você ficará preso na Mansão para Sempre! Voltar ao ínicio. </button>
+                                                </div>
+                                                <div class="passo" id="passo-12">
+                                                    <p>Você entra na biblioteca e vê pilhas de livros antigos. Um livro, em particular, parece brilhar com uma luz estranha. Quando você o abre, sente como se o tempo parasse. As páginas começam a girar sozinhas, e uma voz sussurra em seu ouvido: "Bem-vindo ao seu novo lar." FIM.</p>
+                                                    <button class="btn-proximo" data-proximo="0">Você ficará preso na Mansão para Sempre! Voltar ao ínicio. </button>
+                                                    </div>
+                                                    <div class="passo" id="passo-13">
+                                                        <p>No salão de festas, você encontra um velho piano coberto de poeira. Ao tocar uma tecla, a mansão começa a vibrar, como se estivesse viva. A música preenche o ambiente, e, aos poucos, figuras sombrias surgem dançando ao som da melodia. Você se une a elas, dançando para sempre no salão. FIM.</p>
+                                                        <button class="btn-proximo" data-proximo="0">Você ficará preso na Mansão para Sempre! Voltar ao ínicio. </button>
+                                                        </div>
+                                                        <div class="passo" id="passo-14">
+                                                            <p>Você entra no quarto e vê uma cama antiga e uma penteadeira com um espelho quebrado. No canto, há uma boneca de porcelana com olhos frios. Quando você se aproxima da boneca, ela move a cabeça e sussurra: "Você não deveria estar aqui." De repente, a porta se fecha, e a escuridão toma conta. FIM.</p>
+                                                            <button class="btn-proximo" data-proximo="0">Você ficará preso na Mansão para Sempre! Voltar ao ínicio. </button>
+                                                            </div>
+
+
+       
+   
+
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
